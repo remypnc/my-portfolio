@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
 import React from 'react'
 import Navbar from '../../component/navbar'
 import { Inter } from 'next/font/google'
@@ -8,7 +7,7 @@ import styles from '@/styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function About() {
   return (
     <>
       <Head>
@@ -18,12 +17,7 @@ export default function Home() {
       <main className={styles.main}>
         <Navbar/>
       </main>
-      <div>
-        <table className={styles.space} id="about"><Link href="/about">About me</Link></table>
-        <table className={styles.space} id="project">My Projects</table>
-        <table className={styles.space} id="skills">My skills</table>
-        <table className={styles.space} id="contact">Contact</table>
-      </div>
+      <table id="about" width="100%">About</table>
     </>
   )
 }
