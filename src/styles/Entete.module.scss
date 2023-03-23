@@ -1,0 +1,103 @@
+.background {
+    background-image: url("../../public/photo1.jpg");
+    background-size: cover;
+    background-position-y: center;
+    background-attachment: fixed;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .yellow_bar {
+    background-color: #cbb024;
+    height: 10px;
+  }
+  
+  .square {
+    width: 80vmax;
+    height: 60vh;
+    left: 0;
+    top: 55%;
+    background: rgba(217, 217, 217, 0.25);
+    border-radius: 0px 15px 15px 0px;
+    padding: 1rem;
+    padding-left: 0;
+
+	.container {
+		display: block;
+    	width: 100%;
+    	height: 100%;
+    	border: 1.5px solid white;
+    	border-radius: 0px 15px 15px 0px;
+    	border-left: 0;
+	}
+
+	h3 {
+		color: #cbb024;
+    	font-size: 3rem;
+    	margin: 30px 7%;
+	}
+
+	p {
+		color: #d6d6d6;
+    	font-size: 1.7rem;
+    	margin: 30px 7%;
+	}
+  }
+
+$bgColor: #A08D27;
+$textHoverColor: white;
+$debug: false;
+  
+  .square button {
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	overflow: if($debug, unset, hidden);
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: 600;
+	font-size: 1em;
+	margin: 30px 7%;
+	padding: 0.75em 1em;
+	color: $bgColor;
+	border: 0.15em solid $bgColor;
+	border-radius: calc(0.75em + 0.5em + 0.15em);
+	transition: 2s;
+	
+	&:before,
+	&:after {
+		content: '';
+		position: absolute;
+		top: -1.5em;
+		z-index: -1;
+		width: 200%;
+		aspect-ratio: 1;
+		border: if($debug, inherit, none);
+		border-radius: 40%;
+		background-color: rgba($bgColor, 0.25);
+		transition: 4s;
+	}
+	
+	&:before {
+		left: -80%;
+		transform: translate3d(0, 5em, 0) rotate(-340deg);
+	}
+	
+	&:after {
+		right: -80%;
+		transform: translate3d(0, 5em, 0) rotate(390deg);
+	}
+	
+	&:hover,
+	&:focus {
+		color: $textHoverColor;
+		
+		&:before,
+		&:after {
+			transform: none;
+			background-color: rgba($bgColor, 0.75);
+		}
+	}
+}
