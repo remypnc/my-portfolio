@@ -13,14 +13,9 @@ export default function Home() {
       <Head>
         <link rel="icon" href="/icon.ico" />
       </Head>
-      <Navbar/>
+      
       <main className={styles.main}>
-       
-          <div className={styles.wow}>
-            <p>
-              Download CV
-            </p>
-          </div>
+        <Navbar/>
       </main>
     </>
   )
