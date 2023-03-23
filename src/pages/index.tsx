@@ -18,11 +18,11 @@ export default function Home() {
       <main className={styles.main}>
         <Navbar/>
       </main>
-      <div>
-        <table className={styles.space} id="about"><Link href="/about">About me</Link></table>
-        <table className={styles.space} id="project">My Projects</table>
-        <table className={styles.space} id="skills">My skills</table>
-        <table className={styles.space} id="contact">Contact</table>
+      <div className={styles.space}>
+        <table id="about"><Link href="/about">About me</Link></table>
+        <table id="project">My Projects</table>
+        <table id="skills">My skills</table>
+        <table id="contact">Contact</table>
       </div>
     </>
   )

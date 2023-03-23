@@ -17,7 +17,7 @@ export default function About() {
       <main className={styles.main}>
         <Navbar/>
       </main>
-      <table id="about" width="100%">About</table>
+      <table id="about">About</table>
     </>
   )
 }
