@@ -18,7 +18,7 @@ export default function Footer() {
             <li>Experience</li>
             <li>Personality</li>
           </ul></h4>
-          <p className={styles.sectionSeparator}>|</p>
+          <hr className={styles.sectionSeparator} />
         <h4 className={styles.title}>
           <p className={styles.sectionTitle}>My projects</p>
           <ul className={styles.list}>
@@ -27,7 +27,7 @@ export default function Footer() {
             <li>Eco Score</li>
             <li>Beep-Boop Store</li>
           </ul></h4>
-          <p className={styles.sectionSeparator}>|</p>
+          <hr className={styles.sectionSeparator} />
         <h4 className={styles.title}>
           <p className={styles.sectionTitle}>My skills</p>
           <ul className={styles.list}>
@@ -36,7 +36,7 @@ export default function Footer() {
             <li>Typescript (React.js)</li>
             <li>Adobe</li>
           </ul></h4>
-          <p className={styles.sectionSeparator}>|</p>
+          <hr className={styles.sectionSeparator} />
         <h4 className={styles.title}>
           <p className={styles.sectionTitle}>Contact</p>
           <ul className={styles.list}>
