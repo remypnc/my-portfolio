@@ -3,15 +3,13 @@ import styles from '@/styles/Entete.module.scss'
 
 const Entete = () => {
   return (
-    <div 
-    className={styles.background}
-    >
+    <div className={styles.background}>
       <div className={styles.yellow_bar}/>
       <section className={styles.square}>
         <div className={styles.container}>
             <h3>Hi ! I’m Rémy,<br/> I’m a Web Developper !</h3>
             <p>I’m a student in IT Technology and I’m passionate by Web Design.</p>
-            <div>
+            <div className={styles.space}>
                 <button>Download CV</button>
                 <button>Contact Me</button>
             </div>
@@ -23,5 +21,6 @@ const Entete = () => {
     </div>
   );
 };
+    
 
 export default Entete;

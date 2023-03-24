@@ -1,8 +1,19 @@
-.background {
+.background::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    background-color: black;
+    opacity: 0.60;
+  }
+  .background > * {
+    z-index: 1;
+  }
+
+  .background {
     background-image: url("../../public/photo1.jpg");
     background-size: cover;
     background-position-y: center;
-    background-attachment: fixed;
     height: 90vh;
     display: flex;
     flex-direction: column;
@@ -14,6 +25,9 @@
     height: 10px;
   }
   
+  .space {
+	padding-top: 4%;
+  }
   .square {
     width: 80vmax;
     height: 60vh;
@@ -35,19 +49,19 @@
 
 	h3 {
 		color: #cbb024;
-    	font-size: 3rem;
+    	font-size: 3.3vw;
     	margin: 30px 7%;
 	}
 
 	p {
 		color: #d6d6d6;
-    	font-size: 1.7rem;
+    	font-size: 2vw;
     	margin: 30px 7%;
 	}
   }
 
-$bgColor: #A08D27;
-$textHoverColor: white;
+$bgColor: #141414d5;
+$textHoverColor: rgb(208, 208, 208);
 $debug: false;
   
   .square button {
@@ -61,6 +75,7 @@ $debug: false;
 	font-size: 1em;
 	margin: 30px 7%;
 	padding: 0.75em 1em;
+    background-color: #a18f29e4;
 	color: $bgColor;
 	border: 0.15em solid $bgColor;
 	border-radius: calc(0.75em + 0.5em + 0.15em);
@@ -77,7 +92,7 @@ $debug: false;
 		border: if($debug, inherit, none);
 		border-radius: 40%;
 		background-color: rgba($bgColor, 0.25);
-		transition: 4s;
+		transition: 3s;
 	}
 	
 	&:before {

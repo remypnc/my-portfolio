@@ -1,5 +1,3 @@
-import Head from 'next/head'
-import Image from 'next/image'
 import React from 'react'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Navbar.module.css'
@@ -9,15 +7,9 @@ export default function Navbar() {
   return (
     <div className={styles.container}>
       <ul className={styles.nav}>
-      <Link href="/">
-        <Image 
-          src="/my-logo.png"
-          alt="Rémy Penichon Logo"
-          className={styles.logo}
-          width={195}
-          height={90}
-        />
-        </Link>
+        <div>
+        <a href="/"><img className={styles.logo} src="/my-logo.png" alt="Rémy Penichon Logo"/></a>
+        </div>
 
         <div className={styles.centered}>
           <li>

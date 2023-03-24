@@ -6,6 +6,7 @@ import Navbar from '../../component/navbar'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Entete from '../../component/entete'
+import Footer from '../../component/footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,12 +21,15 @@ export default function Home() {
         <Navbar />
         <Entete />
       </main>
-      <div className={styles.space}>
-        <table id="about"><Link href="/about">About me</Link></table>
-        <table id="project">My Projects</table>
-        <table id="skills">My skills</table>
-        <table id="contact">Contact</table>
+      <div className={styles.title}>
+        <li className={styles.about} id="about"><Link href="/about">About me</Link></li>
+        <p></p>
+        <div className={styles.yellow_bar}/>
+        <li className={styles.title} id="project">My Projects</li>
+        <li className={styles.title} id="skills">My skills</li>
+        <li className={styles.title} id="contact">Contact</li>
       </div>
+      <Footer/>
     </>
   )
 }

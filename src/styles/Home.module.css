@@ -1,4 +1,79 @@
-.space {
-    margin-bottom: 10rem;
-    padding-bottom: 10rem;
-}
+/* Footer container */
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #000000c5;
+    padding: 40px;
+    color: #D6D6D6d6;
+    font-size: 18px;
+  }
+    
+  .box {
+    display: flex;
+  }
+  
+  .title {
+    display: flex;
+    flex-direction: column;
+    margin: 0 16px;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.4vw;
+    font-weight: 600;
+    margin-bottom: 16px;
+    margin: 0 16px;
+  }
+  
+  /* About me section */
+  .sectionTitle {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    color: #A4933D;
+    margin-bottom: 16px;
+  }
+  
+  .sectionSeparator {
+    font-size: 15px;
+    background-color: #A4933D;
+    color: #A4933D;
+    margin: 0 36px;
+  }
+   
+  .yellow_bar {
+    background-color: #cbb024;
+    height: 10px;
+  }
+  
+  .list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 40px;
+  }
+  
+  .list li {
+    font-size: 16px;
+    color: #D6D6D6d6;
+    margin-bottom: 8px;
+    font-weight: 600;
+    text-indent: 0;
+  }
+  
+  /* Copy right section */
+  .copyRightText {
+    font-size: 14px;
+    background-color: #252525;
+    color: #d9d9d97b;
+    text-align: center;
+    margin-top: 16px;
+  }
+  

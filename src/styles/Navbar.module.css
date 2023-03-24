@@ -4,20 +4,26 @@
 
 .nav {
   display: flex;
+  align-items: center;
   justify-content: space-between;
+}
+
+.logo {
+  width: 30%;
+  height: auto;
+  margin-bottom: 0.4vw;
 }
 
 .centered {
   display: flex;
-  justify-content: center;
   align-items: center;
   list-style: none;
-  padding: 0;
+  font-size: 1.2vw;
 }
 
 .centered li {
-  margin-right: 2rem;
   color: rgb(211, 211, 211);
+  padding: 3vmin;
 }
 
 
