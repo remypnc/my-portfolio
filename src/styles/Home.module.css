@@ -4,9 +4,9 @@
     justify-content: space-evenly;
     align-items: center;
     background-color: #000000c5;
-    padding: 40px;
+    padding: 30px;
     color: #D6D6D6d6;
-    font-size: 18px;
+    font-size: 16px;
   }
     
   .box {
@@ -28,6 +28,11 @@
     margin: 0 16px;
   }
   
+  .topFooter {
+    height: 25px;
+    background-color: #262626;
+  }
+
   /* About me section */
   .sectionTitle {
     font-size: 24px;
@@ -74,6 +79,11 @@
     background-color: #252525;
     color: #d9d9d97b;
     text-align: center;
-    margin-top: 16px;
   }
-  
+ 
+  /* Project section */
+  .project {
+    font-size: 2.3vw;
+    list-style: none;
+
+  }
