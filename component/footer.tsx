@@ -1,13 +1,9 @@
 import React from 'react';
-import Image from 'next/image';
-import Link from "next/link";
-import TopButton from "./topbutton";
 import styles from '@/styles/Home.module.css'
 
 export default function Footer() {
     return (
     <div>
-    <TopButton src={''} alt={'ScrollTopButton'}/>
     <footer className={styles.container}>
       <div className={styles.box}>
         <h4 className={styles.title}>
@@ -48,7 +44,7 @@ export default function Footer() {
           <div className={styles.copyright}>
             
         <p className={styles.copyRightText}>
-          © {new Date().getFullYear()} Rémy PENICHON. All rights reserved.
+          © {new Date().getFullYear()}, All rights reserved.
         </p>
       </div>
      </div>

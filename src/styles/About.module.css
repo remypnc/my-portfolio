@@ -1,0 +1,45 @@
+.center {
+  text-align: center;
+  font-family: "Markazi Text";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 96px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.image {
+  margin: 80px 42.5px 150px 95px ;
+  background-size: cover;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-image: url("../../public/photo.jpg");
+}
+
+.text {
+  flex: 2;
+  padding-left: 20px;
+}
+
+.text p {
+margin: 80px 95px 150px 42.5px ;
+  font-family: "Cabin";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 32px;
+  margin-left: 20px;
+}
+
+.text p br {
+    margin: 10px;
+}
+
+.yellow_bar {
+    background-color: #cbb024;
+    height: 10px;
+  }
