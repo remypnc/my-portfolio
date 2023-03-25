@@ -42,16 +42,11 @@ export default function Footer() {
             <li>06 14 46 05 16</li>
             <li>penich_r@etna-alternance.net</li>
           </ul></h4>
-          <div className={styles.copyright}>
-            
-        <p className={styles.copyRightText}>
-          © {new Date().getFullYear()}, All rights reserved.
-        </p>
-      </div>
      </div>
      </footer>
         <div className={styles.copyRightText}>
           © Copyright {new Date().getFullYear()} Rémy PENICHON. All rights reserved.
+          Help by <a href='https://panda-evan.github.io'>Evan Quinchon</a>
         </div>
     </div>
   );
