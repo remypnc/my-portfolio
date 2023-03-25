@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '@/styles/Home.module.css'
+import TopButton from './topbutton';
 
 export default function Footer() {
     return (
@@ -42,12 +43,7 @@ export default function Footer() {
             <li>06 14 46 05 16</li>
             <li>penich_r@etna-alternance.net</li>
           </ul></h4>
-          <div className={styles.copyright}>
-            
-        <p className={styles.copyRightText}>
-          © {new Date().getFullYear()}, All rights reserved.
-        </p>
-      </div>
+        <TopButton src={''} alt={'ScrollTopButton'}/>
      </div>
      </footer>
         <div className={styles.copyRightText}>
