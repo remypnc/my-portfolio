@@ -48,6 +48,7 @@ export default function Footer() {
      </footer>
         <div className={styles.copyRightText}>
           © Copyright {new Date().getFullYear()} Rémy PENICHON. All rights reserved.
+          Help by <a href='https://panda-evan.github.io'>Evan Quinchon</a>
         </div>
     </div>
   );

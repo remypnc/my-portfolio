@@ -6,6 +6,7 @@ import styles from '@/styles/Home.module.css'
 import Entete from '../../component/entete'
 import Footer from '../../component/footer'
 import About from './about'
+import Project from './project'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,6 +22,7 @@ export default function Home() {
 
         <Entete />
         <About />
+        <Project />
         
         <Footer/>
       </main>
