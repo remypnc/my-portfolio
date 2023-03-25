@@ -25,7 +25,7 @@ export default function Home() {
         <li className={styles.about} id="about"><Link href="/about">About me</Link></li>
         <p></p>
         <div className={styles.yellow_bar}/>
-        <li className={styles.title} id="project">My Projects</li>
+        <li className={styles.project} id="project">My Projects</li>
         <li className={styles.title} id="skills">My skills</li>
         <li className={styles.title} id="contact">Contact</li>
       </div>

@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import React from 'react';
+import styles from '@/styles/Scroll.module.scss'
 import Image from 'next/image';
 
 interface TopButtonProps {
@@ -29,10 +30,10 @@ const TopButton: React.FC<TopButtonProps> = ({ src, alt }) => {
 
   return (
     <button
-      className={""}
+      className={styles.topButton}
       onClick={handleClick}
     >
-    <img src={"/buttontop.png"} alt={alt} />
+    <img src={"/buttontop.png"} alt={alt} width='60px'/>
     </button>
   );
 };

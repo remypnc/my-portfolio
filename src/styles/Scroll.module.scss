@@ -1,0 +1,31 @@
+// Variables
+$button-width: 10px;
+$button-height: 30px;
+$button-color: #A4933D;
+
+// Style de base du bouton
+.topButton {
+  height: $button-height;
+  width: $button-width;
+  border-radius: 50%;
+  border: 0;
+  background-color: $button-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  transition: transform 1s ease-in-out;
+}
+
+// Style lorsque la souris survole le bouton
+.topButton:hover {
+  transform: rotate(360deg);
+  transition: 1.3s;
+}
+
+// Style lorsque la souris n'est plus sur le bouton
+.topButton:active,
+.topButton:focus {
+  outline: none;
+}
