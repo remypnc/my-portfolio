@@ -15,16 +15,19 @@ export default function Project() {
       </Head>
 
       <main className={styles.main}>
+      <div className={styles.yellow_bar}/>
         <div className={styles.container}>
           <div className={styles.sidebar}>
             <div className={styles.rectangle}>
               <h1 className={styles.title}>Projects</h1>
-              <Car />
+              <div className={styles.carouselContainer}>
+                <Car />
+              </div>
             </div>
           </div>
-          <div className={styles.main_content}>
-          </div>
+          <div className={styles.main_content}></div>
         </div>
+        <div className={styles.yellow_bar}/>
       </main>
     </>
   );
