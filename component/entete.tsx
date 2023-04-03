@@ -10,7 +10,8 @@ const Entete = () => {
             <h3>Hi ! I’m Rémy,<br/> I’m a Web Developper !</h3>
             <p>I’m a student in IT Technology and I’m passionate by Web Design.</p>
             <div className={styles.space}>
-                <button>Download CV</button>
+            <a href="/CV_Remy_PENICHON_Alternance_Web_Developper_Front-end.pdf" download>
+              <button>Download CV</button></a>
                 <button>Contact Me</button>
             </div>
             
