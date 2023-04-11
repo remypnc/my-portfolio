@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+  }
+  
+.sidebar {
+    flex: 1;
+  }
+  
+.rectangle {
+    width: 150%;
+    height: auto;
+    background-color: white;
+  }
+
+.main_content {
+    flex: 2;
+    background-image: url("../../public/photo3.jpg");
+    background-position: right center;
+    padding: 50px;
+    height: auto;
+  }
+
+  .yellow_bar {
+    background-color: #cbb024;
+    height: 10px;
+  }
+
+  .title {
+    color: #cbb024;
+    font-family: "Markazi Text";
+    margin: 20px 0px;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .center {
+    text-align: center;
+    font-family: "Markazi Text";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+  }

@@ -1,0 +1,29 @@
+.main_content {
+    flex: 2;
+    background-image: url("../../public/photo4.jpg");
+    background-position: right center;
+    padding: 50px;
+    height: auto;
+  }
+
+  .center {
+    text-align: center;
+    font-family: "Markazi Text";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+  }
+
+  .container {
+    display: flex;
+  }
+  
+  .sidebar {
+    flex: -1;
+  }
+  
+  .rectangle {
+    width: 150%;
+    height: auto;
+    background-color: white;
+  }

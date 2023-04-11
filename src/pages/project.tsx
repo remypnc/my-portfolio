@@ -19,7 +19,7 @@ export default function Project() {
         <div className={styles.container}>
           <div className={styles.sidebar}>
             <div className={styles.rectangle}>
-              <h1 className={styles.title}>Projects</h1>
+              <a id="project"><h1 className={styles.title}>Projects</h1></a>
               <div className={styles.carouselContainer}>
                 <Car />
               </div>

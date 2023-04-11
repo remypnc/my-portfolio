@@ -29,6 +29,8 @@
 .title {
   color: #cbb024;
   margin: 20px 0px;
+  font-family: 'MarkaziText';
+  font-weight: 700;
   font-size: 3rem;
   text-align: center;
 }

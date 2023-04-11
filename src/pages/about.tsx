@@ -14,7 +14,7 @@ export default function About() {
       </Head>
       <main>
       <div className={styles.yellow_bar}/>
-        <h1 className={styles.center}>About Me</h1>
+        <a id="about"><h1 className={styles.center}>About Me</h1></a>
         <div className={styles.container}>
           <div className={styles.image} />
           <div className={styles.text}>

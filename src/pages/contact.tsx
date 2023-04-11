@@ -3,7 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import Navbar from '../../component/navbar'
 import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
+import styles from '@/styles/Contact.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,7 +15,14 @@ export default function Home() {
       </Head>
       
       <main className={styles.main}>
-        <Navbar/>
+        <div className={styles.container}>
+          <div className={styles.rectangle}>
+            <div className={styles.sidebar}>
+              <a id="contact"><h1 className={styles.center}>Contact</h1></a>
+            </div>
+          <div className={styles.main_content}></div>
+          </div>
+        </div>
       </main>
     </>
   )

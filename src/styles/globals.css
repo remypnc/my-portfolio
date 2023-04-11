@@ -26,4 +26,10 @@ a {
   text-decoration: none;
 }
 
+@font-face {
+  font-family: 'MarkaziText';
+  src: url('/fonts/MarkaziText-VariableFont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
