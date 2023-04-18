@@ -31,7 +31,7 @@ export default function About() {
               database as well.
               <br />
               This website is basically one of my Web Development project which
-              is built using.
+              is built using with React and Tailwind CSS.
             </p>
           </div>
         </div>
