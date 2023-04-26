@@ -1,42 +1,88 @@
-.container {
-    display: flex;
-  }
-  
-.sidebar {
-    flex: 1;
-  }
-  
-.rectangle {
-    width: 150%;
-    height: auto;
-    background-color: white;
-  }
+.img {
+  background-image: url("../../public/photo3.jpg");
+  background-size: cover;
+  background-position: center center;
+  margin-left: 65%;
+  margin-bottom: 50px;
+  width: 35%;
+  height: 50vw;
+  right: 0;
+  opacity: 0.6;
+}
 
-.main_content {
-    flex: 2;
-    background-image: url("../../public/photo3.jpg");
-    background-position: right center;
-    padding: 50px;
-    height: auto;
-  }
+.background {
+  background: rgb(0, 0, 0, 0.4);
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
 
-  .yellow_bar {
-    background-color: #cbb024;
-    height: 10px;
-  }
+.center {
+  display:inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}
 
-  .title {
-    color: #cbb024;
-    font-family: "Markazi Text";
-    margin: 20px 0px;
-    font-size: 3rem;
-    text-align: center;
-  }
+.circle {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  border: 3px solid #cbb024;
+  border-radius: 50%;
+  background: rgb(255, 255, 255);
+}
 
-  .center {
-    text-align: center;
-    font-family: "Markazi Text";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 48px;
-  }
+.icon {
+  max-height: 80%;
+  max-width: 80%;
+}
+
+.yellow_bar {
+  background-color: #cbb024;
+  height: 10px;
+}
+
+.div_skills {
+  position: absolute;
+  top: 400%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: fit-content;
+  padding: 20px 0px;
+  background: rgb(255, 255, 255, 0.6);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.div_skills p {
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+
+.active {
+  display: none;
+}
+
+.prev,
+.next {
+  position: absolute;
+  border: none;
+  color: black;
+  background: none;
+  font-size: 5rem;
+  top: 70px;
+}
+
+.prev {
+  left: 2%;
+}
+
+.next {
+  right: 2%;
+}
