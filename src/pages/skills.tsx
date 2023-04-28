@@ -113,6 +113,7 @@ const CircleIcon = () => {
     <>
       <div className={styles.yellow_bar} />
       <div className={styles.background}>
+        <h1>Skills</h1>
         <div className={styles.img} />
         <div className={styles.div_skills}>
           {showFront && (
