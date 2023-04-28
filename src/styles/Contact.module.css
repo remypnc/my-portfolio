@@ -52,11 +52,22 @@
 
 .contact_information li {
   display: flex;
+  margin: 20px;
+  align-items: center;
+}
+
+.contact_information li div {
+  display: flex;
+  flex-direction: column;
 }
 
 .contact_information a {
   font-size: 1.2rem;
   margin-left: 20px;
+}
+
+.gray {
+  opacity: 0.5;
 }
 
 .contact_information img {
