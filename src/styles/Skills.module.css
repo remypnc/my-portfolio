@@ -84,11 +84,12 @@
   color: #cbb024;
   align-items: center;
   text-align: center;
+  font-size: 4rem;
 }
 
 .div_skills h2 {
-  font-size: 4rem;
-  margin-bottom: 50px;
+  font-size: 3rem;
+  margin-bottom: 60px;
 }
 
 .active {

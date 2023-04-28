@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <main className={styles.main}>
-        <div className={styles.background}>
+        <div id="contact" className={styles.background}>
           <div className={styles.contact}>
             <h2>Contact</h2>
             <div className={styles.contact_information}>

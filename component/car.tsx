@@ -51,7 +51,7 @@ const CarouselComponent = () => {
     setIsFlipped(!isFlipped);
   };
 
-  const arrowStyles = {
+  const arrowStyles:any = {
     position: 'absolute',
     zIndex: 2,
     top: '50%',
@@ -71,7 +71,7 @@ const CarouselComponent = () => {
       showThumbs={false}
       showStatus={false}
       className={styles.car}
-      arrowStyle={arrowStyles}
+      // arrowStyle={arrowStyles}
     >
       {slides.map((slide, index) => (
         <>
