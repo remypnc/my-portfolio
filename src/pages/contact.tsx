@@ -31,8 +31,14 @@ export default function Home() {
                 <li>
                   <img src="../photo.jpg" />
                   <div>
-                    <a href="mailto:penich_r@etna-alternance.net"> penich_r@etna-alternance.net</a>
-                    <a className={styles.gray} href="mailto:rpenichon18@gmail.com">
+                    <a href="mailto:penich_r@etna-alternance.net">
+                      {" "}
+                      penich_r@etna-alternance.net
+                    </a>
+                    <a
+                      className={styles.gray}
+                      href="mailto:rpenichon18@gmail.com"
+                    >
                       ( rpenichon18@gmail.com )
                     </a>
                   </div>
