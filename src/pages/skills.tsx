@@ -257,7 +257,6 @@ const CircleIcon = () => {
           )}
         </div>
       </div>
-      <div className={styles.yellow_bar} />
     </>
   );
 };
