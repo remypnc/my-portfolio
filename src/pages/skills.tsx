@@ -15,6 +15,26 @@ const CircleIcon = () => {
       name: "Typescript",
       alt: "typescript",
     },
+    {
+      src: "../IC/typescript.png",
+      name: "Typescript",
+      alt: "typescript",
+    },
+    {
+      src: "../IC/typescript.png",
+      name: "Typescript",
+      alt: "typescript",
+    },
+    {
+      src: "../IC/typescript.png",
+      name: "Typescript",
+      alt: "typescript",
+    },
+    {
+      src: "../IC/typescript.png",
+      name: "Typescript",
+      alt: "typescript",
+    },
   ];
 
   const infoMobile = [
@@ -97,15 +117,20 @@ const CircleIcon = () => {
         <div className={styles.div_skills}>
           {showFront && (
             <>
-              <p>Front-End</p>
+              <div className={styles.title}>
+                <h2>Front-End</h2>
+              </div>
               {infoFront.map((infos) => (
-                <div className={styles.center}>
-                  <div className={styles.circle} key={infos.name}>
-                    <img
-                      src={infos.src}
-                      alt={infos.alt}
-                      className={styles.icon}
-                    />
+                <div className={styles.c}>
+                  <div className={styles.center}>
+                    <div className={styles.circle} key={infos.name}>
+                      <img
+                        src={infos.src}
+                        alt={infos.alt}
+                        className={styles.icon}
+                      />
+                    </div>
+                    <p>{infos.name}</p>
                   </div>
                 </div>
               ))}
@@ -120,15 +145,20 @@ const CircleIcon = () => {
 
           {showMobile && (
             <>
-              <p>Développement Mobile</p>
+              <div className={styles.title}>
+                <h2>Développement Mobile</h2>
+              </div>
               {infoMobile.map((infos) => (
-                <div className={styles.center}>
-                  <div className={styles.circle} key={infos.name}>
-                    <img
-                      src={infos.src}
-                      alt={infos.alt}
-                      className={styles.icon}
-                    />
+                <div className={styles.c}>
+                  <div className={styles.center}>
+                    <div className={styles.circle} key={infos.name}>
+                      <img
+                        src={infos.src}
+                        alt={infos.alt}
+                        className={styles.icon}
+                      />
+                    </div>
+                    <p>{infos.name}</p>
                   </div>
                 </div>
               ))}
@@ -143,15 +173,20 @@ const CircleIcon = () => {
 
           {showDesign && (
             <>
-              <p>Design</p>
+              <div className={styles.title}>
+                <h2>Design</h2>
+              </div>
               {infoDesign.map((infos) => (
-                <div className={styles.center}>
-                  <div className={styles.circle} key={infos.name}>
-                    <img
-                      src={infos.src}
-                      alt={infos.alt}
-                      className={styles.icon}
-                    />
+                <div className={styles.c}>
+                  <div className={styles.center}>
+                    <div className={styles.circle} key={infos.name}>
+                      <img
+                        src={infos.src}
+                        alt={infos.alt}
+                        className={styles.icon}
+                      />
+                    </div>
+                    <p>{infos.name}</p>
                   </div>
                 </div>
               ))}
@@ -166,15 +201,20 @@ const CircleIcon = () => {
 
           {showBackend && (
             <>
-              <p>Back-End</p>
+              <div className={styles.title}>
+                <h2>Back-End</h2>
+              </div>
               {infoBackend.map((infos) => (
-                <div className={styles.center}>
-                  <div className={styles.circle} key={infos.name}>
-                    <img
-                      src={infos.src}
-                      alt={infos.alt}
-                      className={styles.icon}
-                    />
+                <div className={styles.c}>
+                  <div className={styles.center}>
+                    <div className={styles.circle} key={infos.name}>
+                      <img
+                        src={infos.src}
+                        alt={infos.alt}
+                        className={styles.icon}
+                      />
+                    </div>
+                    <p>{infos.name}</p>
                   </div>
                 </div>
               ))}
@@ -189,15 +229,20 @@ const CircleIcon = () => {
 
           {showOther && (
             <>
-              <p>Other</p>
+              <div className={styles.title}>
+                <h2>Other</h2>
+              </div>
               {infoOther.map((infos) => (
-                <div className={styles.center}>
-                  <div className={styles.circle} key={infos.name}>
-                    <img
-                      src={infos.src}
-                      alt={infos.alt}
-                      className={styles.icon}
-                    />
+                <div className={styles.c}>
+                  <div className={styles.center}>
+                    <div className={styles.circle} key={infos.name}>
+                      <img
+                        src={infos.src}
+                        alt={infos.alt}
+                        className={styles.icon}
+                      />
+                    </div>
+                    <p>{infos.name}</p>
                   </div>
                 </div>
               ))}

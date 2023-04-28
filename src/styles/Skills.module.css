@@ -17,7 +17,8 @@
 }
 
 .center {
-  display:inline-flex;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -25,7 +26,7 @@
 }
 
 .circle {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -47,6 +48,7 @@
 }
 
 .div_skills {
+  display: flex;
   position: absolute;
   top: 400%;
   left: 50%;
@@ -58,10 +60,28 @@
   text-align: center;
   align-items: center;
   justify-content: center;
+  border-block: solid 10px #cbb024;
+  writing-mode: horizontal-tb;
+}
+
+.title {
+  position: absolute;
+  bottom: 90%;
+}
+
+.c {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
 }
 
 .div_skills p {
   font-size: 2rem;
+}
+
+.div_skills h2 {
+  font-size: 4rem;
   margin-bottom: 50px;
 }
 
@@ -76,7 +96,7 @@
   color: black;
   background: none;
   font-size: 5rem;
-  top: 70px;
+  top: 20%;
 }
 
 .prev {
