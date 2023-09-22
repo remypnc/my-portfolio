@@ -6,7 +6,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 const slides = [
   { title: "Portfolio 2023",
     subtitle: "Personal work",
-    image: "./My Portfolio.png",  
+    image: "./my-portfolio.png",  
     text: "Voici mon tout premier portfolio en tant que Web Developper ! J'espère que ce design vous plaît tout autant qu'à moi. J'acquérirais de plus en plus de compétences au fur et à mesure du temps, alors restez à l'affût pour ne rien louper !",
   },
   {
@@ -87,6 +87,11 @@ const CarouselComponent = () => {
                   src={slide.image}
                   alt={`Image ${index + 1}`}
                   className={styles.slideImage}
+                />
+                <img
+                src="../IC/click.png"
+                alt="Click on Me"
+                className={styles.click}
                 />
               </div>
               <div className={styles.flip_box_back}>
