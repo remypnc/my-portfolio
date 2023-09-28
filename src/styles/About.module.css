@@ -1,9 +1,8 @@
 .center {
   text-align: center;
-  font-family: "Markazi Text";
-  font-style: normal;
   font-weight: 300;
   font-size: 96px;
+  margin-top: 42px
 }
 
 .container {
@@ -28,7 +27,6 @@
 
 .text p {
 margin: 80px 95px 150px 42.5px ;
-  font-family: "Cabin";
   font-style: normal;
   font-weight: 100;
   font-size: 32px;

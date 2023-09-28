@@ -38,7 +38,7 @@ export default function Footer() {
         <h4 className={styles.title}>
           <p className={styles.sectionTitle}>Contact</p>
           <ul className={styles.list}>
-            <li><a href="https://github.com/remypnc">@remy_pnc</a></li>
+            <li>Github : <a href="https://github.com/remypnc">remypnc</a></li>
             <li><a href="https://www.linkedin.com/in/r%C3%A9my-penichon-7a5bab252/">Rémy Penichon</a></li>
             <li>06 14 46 05 16</li>
             <li>penich_r@etna-alternance.net</li>

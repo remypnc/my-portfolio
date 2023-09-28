@@ -16,56 +16,91 @@ const CircleIcon = () => {
       alt: "typescript",
     },
     {
-      src: "../IC/typescript.png",
-      name: "Typescript",
-      alt: "typescript",
+      src: "../IC/javascript.png",
+      name: "Javascript",
+      alt: "javascript",
     },
     {
-      src: "../IC/typescript.png",
-      name: "Typescript",
-      alt: "typescript",
+      src: "../IC/react.png",
+      name: "React.js",
+      alt: "react",
     },
     {
-      src: "../IC/typescript.png",
-      name: "Typescript",
-      alt: "typescript",
+      src: "../IC/html.png",
+      name: "HTML",
+      alt: "html",
     },
     {
-      src: "../IC/typescript.png",
-      name: "Typescript",
-      alt: "typescript",
+      src: "../IC/css.png",
+      name: "CSS",
+      alt: "css",
     },
   ];
 
   const infoMobile = [
     {
-      src: "../IC/flutter.webp",
+      src: "../IC/flutter.png",
       name: "Flutter",
       alt: "flutter",
+    },
+    {
+      src: "../IC/kotlin.png",
+      name: "Kotlin",
+      alt: "kotlin",
     },
   ];
 
   const infoDesign = [
     {
-      src: "../IC/flutter.webp",
-      name: "Flutter",
-      alt: "flutter",
+      src: "../IC/figma.png",
+      name: "Figma",
+      alt: "figma",
+    },
+    {
+      src: "../IC/photoshop.png",
+      name: "Photoshop",
+      alt: "photoshop",
+    },
+    {
+      src: "../IC/indesign.png",
+      name: "InDesign",
+      alt: "indesign",
     },
   ];
 
   const infoBackend = [
     {
-      src: "../IC/flutter.webp",
-      name: "Flutter",
-      alt: "flutter",
+      src: "../IC/postman.png",
+      name: "Postman",
+      alt: "postman",
+    },
+    {
+      src: "../IC/mongodb.png",
+      name: "MongoDB",
+      alt: "mongodb",
     },
   ];
 
   const infoOther = [
     {
-      src: "../IC/flutter.webp",
-      name: "Flutter",
-      alt: "flutter",
+      src: "../IC/python.png",
+      name: "Python",
+      alt: "python",
+    },
+    {
+      src: "../IC/vs-code.png",
+      name: "VS Code",
+      alt: "vscode",
+    },
+    {
+      src: "../IC/github.png",
+      name: "Github",
+      alt: "github",
+    },
+    {
+      src: "../IC/gitlab.png",
+      name: "Gitlab",
+      alt: "gitlab",
     },
   ];
 
@@ -112,7 +147,7 @@ const CircleIcon = () => {
   return (
     <>
       <div className={styles.yellow_bar} />
-      <div id="skills " className={styles.background}>
+      <div id="skills" className={styles.background}>
         <h1>Skills</h1>
         <div className={styles.img} />
         <div className={styles.div_skills}>

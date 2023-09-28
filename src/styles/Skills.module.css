@@ -3,7 +3,6 @@
   background-size: cover;
   background-position: center center;
   margin-left: 65%;
-  margin-bottom: 50px;
   width: 35%;
   height: 50vw;
   right: 0;
@@ -13,13 +12,12 @@
 .background {
   background: rgb(0, 0, 0, 0.7);
   padding-top: 20px;
-  padding-bottom: 30px;
 }
 
 .center {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   text-align: center;
   margin: 10px;
@@ -38,7 +36,8 @@
 }
 
 .icon {
-  max-height: 80%;
+  justify-content: center;
+  max-height: 60%;
   max-width: 80%;
 }
 
@@ -50,16 +49,16 @@
 .div_skills {
   display: flex;
   position: absolute;
-  top: 400%;
+  top: 410%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
   height: fit-content;
-  padding: 150px 0px 20px 0px;
+  padding: 170px 0px 70px 0px;
   background: rgb(255, 255, 255, 0.6);
   text-align: center;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   border-block: solid 10px #cbb024;
   writing-mode: horizontal-tb;
 }
@@ -89,7 +88,7 @@
 
 .div_skills h2 {
   font-size: 3rem;
-  margin-bottom: 60px;
+  margin-bottom: 90px;
 }
 
 .active {

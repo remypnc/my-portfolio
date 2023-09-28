@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import React from "react";
-import Car from "../../component/car";
+import Car from "../../components/car";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Project.module.css";
 
